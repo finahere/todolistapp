@@ -4,7 +4,11 @@ import { TodoWrapper } from './components/TodoWrapper';
 function App() {
   return (
     <div className="App">
-      <TodoWrapper />
+      <TodoWrapper 
+         header= 'To-Do List',
+         task= 'Add your task',
+         description= 'Task Description'
+      />
     </div>
   );
 }
